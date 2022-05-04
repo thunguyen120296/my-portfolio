@@ -5,7 +5,6 @@ import {FaFacebookF, FaLinkedinIn, FaTwitter} from 'react-icons/fa'
 function Header(){
     return (
         <div className='header'>
-            <Navigation />
             <div className="user__information">
                 <div className="user__content">
                     <h1>Lorem ipsum dolor sit amet.</h1>

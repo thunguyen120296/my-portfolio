@@ -3,6 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navigation from './components/partials/navigation/Navigation';
 import About from './components/about/About';
+import Header from './components/partials/header/Header';
 import App from './App';
 import './index.css';
 ReactDOM.render(
@@ -10,7 +11,7 @@ ReactDOM.render(
         <Router>
             <Navigation />
             <Routes>
-                <Route path='/' />
+                <Route path='/' element={<Header />} />
                 <Route path='about' element={<About />} />
             </Routes>
         </Router>
