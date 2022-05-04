@@ -12,7 +12,7 @@ ReactDOM.render(
             <Navigation />
             <Routes>
                 <Route path='/' element={<Header />} />
-                <Route path='about' element={<About />} />
+                <Route path='/about' element={<About />} />
             </Routes>
         </Router>
     </React.StrictMode>, 

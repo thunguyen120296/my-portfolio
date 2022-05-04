@@ -2,9 +2,11 @@ import React from 'react';
 import './header.css';
 import Navigation from '../navigation/Navigation';
 import {FaFacebookF, FaLinkedinIn, FaTwitter} from 'react-icons/fa'
+import About from '../../about/About';
 function Header(){
     return (
         <div className='header'>
+            <Navigation />
             <div className="user__information">
                 <div className="user__content">
                     <h1>Lorem ipsum dolor sit amet.</h1>
@@ -23,6 +25,7 @@ function Header(){
                     <a href='#'>Scroll Down</a>
                 </div>
             </div>
+            <About />
         </div>
     )
 }
