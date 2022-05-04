@@ -11,6 +11,7 @@ ReactDOM.render(
             <Navigation />
             <Routes>
                 <Route path='/' />
+                <Route path='about' element={<About />} />
             </Routes>
         </Router>
     </React.StrictMode>, 

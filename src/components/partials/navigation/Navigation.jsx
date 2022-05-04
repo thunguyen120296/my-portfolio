@@ -6,13 +6,11 @@ import {BiHome, BiUserCircle, BiBookHeart, BiGridAlt, BiMessageRoundedDots} from
 function Navigation(){
     return (
         <ul className='navigation'>
-            <li><Link to='/'>123</Link></li>
-            <li><Link to='/about'>123</Link></li>
-            <li><a href='/' className='item__link'><BiHome /></a></li>
-            <li><a href="/about" className='item__link'><BiUserCircle /></a></li>
-            <li><a href="/experience" className='item__link'><BiBookHeart /></a></li>
-            <li><a href="/portfolio" className='item__link'><BiGridAlt /></a></li>
-            <li><a href='/contact' className='item__link'><BiMessageRoundedDots /></a></li>
+            <li><Link to='/' className='item__link'><BiHome /></Link></li>
+            <li><Link to='/about' className='item__link'><BiUserCircle /></Link></li>
+            <li><Link to='/experience' className='item__link'><BiBookHeart /></Link></li>
+            <li><Link to='/portfolio' className='item__link'><BiGridAlt /></Link></li>
+            <li><Link to='/contact' className='item__link'><BiMessageRoundedDots /></Link></li>
         </ul>
     )
 }
