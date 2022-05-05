@@ -1,6 +1,6 @@
 .header{
     position: relative;
-    height: 100vh;
+    height: 80vh;
     background: linear-gradient(180deg, #ff4b1f, #ff9068);
 }
 .user__information{
@@ -11,13 +11,12 @@
     height: 100%;
 }
 .user__content{
-    width: 80vw;
+    width: 60vw;
     text-align: center;
 }
 .user__content h1{
     text-transform: uppercase;
     margin-bottom: 24px;
-    font-size: 3rem;
 }
 .user__content__group__link
 {
@@ -70,10 +69,10 @@
 .scroll__down{
     position: absolute;
     right: 2%;
-    top: calc(100vh - 200px);
+    top: 50%;
     animation: upDown 5s ease infinite;
     cursor: pointer;
-    transform: translateX(-2%);
+    transform: translate(-2%, -50%);
 }
 .scroll__down a{
     color: var(--white-color);
@@ -89,10 +88,20 @@
         transform: translateY(50px) rotate(90deg);
     }
 }
+@media screen and (min-width: 601px) and (max-width: 991px){
+    .user__content{
+        width: 70vw;
+        text-align: center;
+    }
+}
 
 @media screen and (max-width: 600px) {
     .scroll__down{
         right: -6%;
         transform: translateX(6%);
+    }
+    .user__content{
+        width: 75vw;
+        text-align: center;
     }
 }

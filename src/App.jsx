@@ -1,9 +1,10 @@
 import React from 'react';
-import Header from './components/partials/header/Header';
+import Page from './components/partials/page/Page';
+import Navigation from './components/partials/navigation/Navigation';
 function App(){
     return (
-        <div>
-            <Header />
+        <div className='main'>
+            <Page />
         </div>
     )
 }

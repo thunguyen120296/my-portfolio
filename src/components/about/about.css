@@ -1,3 +1,4 @@
-.about h1{
-    font-size: 5rem;
+.about{
+    background: linear-gradient(360deg, #ff4b1f, #ff9068);
+    height: 100vh;
 }

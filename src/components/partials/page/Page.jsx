@@ -1,9 +1,12 @@
 import React from 'react';
-import './header.css';
+import './page.css';
 import Navigation from '../navigation/Navigation';
 import {FaFacebookF, FaLinkedinIn, FaTwitter} from 'react-icons/fa'
 import About from '../../about/About';
-function Header(){
+import Experience from '../../experience/Experience';
+import Portfolio from '../../portfolio/Portfolio';
+import Contact from '../../contact/Contact';
+function Page(){
     return (
         <div className='header'>
             <Navigation />
@@ -25,8 +28,10 @@ function Header(){
                     <a href='#'>Scroll Down</a>
                 </div>
             </div>
-            <About />
+            <Experience />
+            <Portfolio />
+            <Contact />
         </div>
     )
 }
-export default Header;
+export default Page;

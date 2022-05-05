@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     width: max-content;
-    position: absolute;
+    position: fixed;
     top: calc(100% - 70px);
     left: 50%;
     transform: translateX(-50%);
